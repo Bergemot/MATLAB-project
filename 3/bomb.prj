@@ -1,0 +1,114 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4106784002" file="D:\大三\第一学期\matllab\大作业\题目三code\bomb.prj" location="D:\大三\第一学期\matllab\大作业\题目三code" name="bomb" target="target.mlapps" target-name="打包为 App">
+    <param.appname>bomb</param.appname>
+    <param.authnamewatermark>刘家彤</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>一款基于Matlab的扫雷游戏</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\扫雷</param.output>
+    <param.guid>3e82423a-832a-4b75-b217-07a588747c04</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\bomb.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\bomb.jpg</file>
+      <file>${PROJECT_ROOT}\cry.png</file>
+      <file>${PROJECT_ROOT}\die.jpg</file>
+      <file>${PROJECT_ROOT}\gameing.m</file>
+      <file>${PROJECT_ROOT}\live.jpg</file>
+      <file>${PROJECT_ROOT}\mark.jpg</file>
+      <file>${PROJECT_ROOT}\success.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\burybomb.m</file>
+      <file>${PROJECT_ROOT}\CountBomb.m</file>
+      <file>${PROJECT_ROOT}\leftclick.m</file>
+      <file>${PROJECT_ROOT}\restart.m</file>
+      <file>${PROJECT_ROOT}\rightclick.m</file>
+      <file>${PROJECT_ROOT}\SearchZero.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="扫雷" optional="false">D:\大三\第一学期\matllab\大作业\题目三code\扫雷</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
